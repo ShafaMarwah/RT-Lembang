@@ -92,41 +92,69 @@
       pannellum.viewer('pannellum-image-360', {
           default: {
               // scene yang akan ditampilkan pertama kali
-              firstScene: 'd111',
+              firstScene: 'd10',
               author: 'Shafa Marwah Studio',
               sceneFadeDuration: 1100
           },
           scenes: {
             d1: {
-                  title: 'Carport',
+                  title: 'Ruang Tamu',
                   pitch: 0,
                   yaw: 0,
                   hfov: 100,
                   type: 'equirectangular',
-                  panorama: 'https://i.ibb.co/Y3Jwb1r/a1.jpg',
+                  panorama: 'https://i.ibb.co.com/vxJMQCz/1.png',
                   "autoLoad": true,
                    autoRotate: -3,
                    "compass": true,
                    "northOffset": 0,
                   hotSpots: [
                       {
-                           "pitch": -8,
-                           "yaw": 31,
+                           "pitch": -5,
+                           "yaw": 5,
                            type: 'scene',
-                           text: 'Ruang Tamu',
+                           text: 'Kitchen',
                            sceneId: 'd2'
+                       },
+                       {
+                           "pitch": -5,
+                           "yaw": -35,
+                           type: 'scene',
+                           text: 'Kamar Ortu',
+                           sceneId: 'd3'
+                       },
+                       {
+                           "pitch": -8,
+                           "yaw": 130,
+                           type: 'scene',
+                           text: 'Lantai 2',
+                           sceneId: 'd4'
+                       },
+                       {
+                           "pitch": -5,
+                           "yaw": -130,
+                           type: 'scene',
+                           text: 'Depan',
+                           sceneId: 'd10'
+                       },
+                       {
+                           "pitch": -5,
+                           "yaw": 30,
+                           type: 'info',
+                           text: 'powder room',
+                           sceneId: ''
                        },
                        
                  
                   ]
               },
               d2: {
-                  title: 'Ruang Tamu',
+                  title: 'Pantry',
                   pitch: 0,
                   yaw: 0,
                   hfov: 100,
                   type: 'equirectangular',
-                  panorama: 'https://i.ibb.co/NnrdCrb/2.jpg',
+                  panorama: 'https://i.ibb.co.com/ZgcRFdN/2.png',
                   "autoLoad": true,
                    autoRotate: -3,
                    "compass": true,
@@ -135,181 +163,163 @@
                   {
                            "pitch": -3,
                            "yaw": -44,
-                           type: 'scene',
-                           text: 'Carport',
-                           sceneId: 'd1'
-                       },
-                       {
-                           "pitch": -20,
-                           "yaw": 120,
-                           type: 'scene',
-                           text: 'Ruang Keluarga',
-                           sceneId: 'd3'
-                       },
-                       {
-                           "pitch": -3,
-                           "yaw": -104,
-                           type: 'scene',
-                           text: 'Kamar Utama',
-                           sceneId: 'd7'
-                       },
-                       {
-                           "pitch": -20,
-                           "yaw": -0,
                            type: 'info',
-                           text: 'Ruang Tamu',
+                           text: 'powder room',
                            sceneId: ''
                        },
                        {
-                           "pitch": -10,
-                           "yaw": -134,
+                           "pitch": -15,
+                           "yaw": -104,
                            type: 'info',
-                           text: 'Mushola',
-                           sceneId: 'd4'
+                           text: 'Area Kucing',
+                           sceneId: ''
+                       },
+                       {
+                           "pitch": -15,
+                           "yaw": -5,
+                           type: 'scene',
+                           text: 'Ruang Tamu',
+                           sceneId: 'd1'
+                       },
+                       {
+                           "pitch": -3,
+                           "yaw": 25,
+                           type: 'scene',
+                           text: 'Kamar Ortu',
+                           sceneId: ''
                        },
                        {
                            "pitch": -5,
                            "yaw": -192,
-                           type: 'scene',
-                           text: 'WC',
-                           sceneId: 'd8'
+                           type: 'info',
+                           text: 'Area Belakang',
+                           sceneId: ''
                        },
                  
                   ]
               },
               d3: {
-                  title: 'Ruang Keluarga',
+                  title: 'Kamar Orang Tua',
                   pitch: 0,
                   yaw: 0,
                   hfov: 100,
                   type: 'equirectangular',
-                  panorama: 'https://i.ibb.co/31SCvqV/3.jpg',
+                  panorama: 'https://i.ibb.co.com/kBH4k8K/3.png',
                   "autoLoad": true,
                    autoRotate: -3,
                    "compass": true,
                    "northOffset": -150.5,
                   hotSpots: [
-                      {
-                           "pitch": -20,
-                           "yaw": -36,
+                     
+                       {
+                           "pitch": -5,
+                           "yaw": -170,
                            type: 'scene',
                            text: 'Ruang Tamu',
-                           sceneId: 'd2'
-                       },
-                       {
-                           "pitch": -3,
-                           "yaw": -46,
-                           type: 'scene',
-                           text: 'Carport',
-                           sceneId: 'd1'
-                       },
-
-                       {
-                           "pitch": -3,
-                           "yaw": -72,
-                           type: 'scene',
-                           text: 'Kamar Utama',
-                           sceneId: 'd7'
-                       },
-                       {
-                           "pitch": -18,
-                           "yaw": -123,
-                           type: 'scene',
-                           text: 'Mushola',
                            sceneId: 'd4'
+                       },{
+                           "pitch": -5,
+                           "yaw": 80,
+                           type: 'info',
+                           text: 'WC',
+                           sceneId: ''
                        },
-                       {
-                           "pitch": -18,
-                           "yaw": 160,
-                           type: 'scene',
-                           text: 'Area kitchen',
-                           sceneId: 'd5'
-                       },
+                     
+                     
                  
                  
                   ]
               },
               d4: {
-                  title: 'Mushola',
+                  title: 'Ruang Keluarga',
                   pitch: 0,
                   yaw: 0,
                   hfov: 100,
                   type: 'equirectangular',
-                  panorama: 'https://i.ibb.co/SBHTDx6/4.jpg',
+                  panorama: 'https://i.ibb.co.com/zsdcz1P/4.png',
                   "autoLoad": true,
                    autoRotate: -3,
                    "compass": true,
                    "northOffset": -150.5,
                   hotSpots: [
                        {
-                           "pitch": -17,
-                           "yaw": 65,
+                           "pitch": -5,
+                           "yaw": 63,
                            type: 'scene',
-                           text: 'Ruang Keluarga',
-                           sceneId: 'd3'
+                           text: 'KAmar Utama',
+                           sceneId: 'd5'
                        },
                        {
                            "pitch": -3,
-                           "yaw": 80,
+                           "yaw": 55,
                            type: 'scene',
-                           text: 'WC',
+                           text: 'Kamar Tamu',
                            sceneId: 'd8'
                        },
+                       {
+                           "pitch": -3,
+                           "yaw": 30,
+                           type: 'scene',
+                           text: 'Studio',
+                           sceneId: 'd9'
+                       },
+                       {
+                           "pitch": -30,
+                           "yaw": -120,
+                           type: 'scene',
+                           text: 'Lantai 1',
+                           sceneId: 'd1'
+                       },
+                       {
+                           "pitch": -10,
+                           "yaw": -50,
+                           type: 'info',
+                           text: 'Balkon',
+                           sceneId: ''
+                       },
+                       
                        
                  
                   ]
               },
               d5: {
-                  title: 'Area Dapur',
+                  title: 'Kamar Utama',
                   pitch: 0,
                   yaw: 0,
                   hfov: 100,
                   type: 'equirectangular',
-                  panorama: 'https://i.ibb.co/p2Ng4GB/5.jpg',
+                  panorama: 'https://i.ibb.co.com/Q6kNjD2/5.png',
                   "autoLoad": true,
                    autoRotate: -3,
                    "compass": true,
                    "northOffset": -150.5,
                   hotSpots: [
                        {
-                           "pitch": -18,
-                           "yaw": -80,
+                           "pitch": -8,
+                           "yaw": -28,
                            type: 'scene',
-                           text: 'Ruang Keluarga',
-                           sceneId: 'd3'
+                           text: 'Walk-in',
+                           sceneId: 'd6'
                        },
-                       {
-                           "pitch": -40,
-                           "yaw": 110,
-                           type: 'scene',
-                           text: 'Kolidor Belakang',
-                           sceneId: 'd10'
-                       },
-                       {
-                           "pitch": -30,
-                           "yaw": 60,
-                           type: 'info',
-                           text: 'Area Santai',
-                           sceneId: ''
-                       },
+                       
                        {
                            "pitch": -10,
-                           "yaw": 70,
-                           type: 'info',
-                           text: 'Taman Belakang',
-                           sceneId: ''
+                           "yaw": -180,
+                           type: 'scene',
+                           text: 'R Keluarga',
+                           sceneId: 'd4'
                        },
 
                  
                   ]
               },
               d6: {
-                  title: 'Area Cuci Jemur',
+                  title: 'Walk-in',
                   pitch: 0,
                   yaw: 0,
                   hfov: 100,
                   type: 'equirectangular',
-                  panorama: 'https://i.ibb.co/XpYwXHZ/6a.jpg',
+                  panorama: 'https://i.ibb.co.com/dj3mFw5/6.png',
                   "autoLoad": true,
                    autoRotate: -3,
                    "compass": true,
@@ -317,43 +327,30 @@
                   hotSpots: [
                       {
                            "pitch": -8,
-                           "yaw": 68,
+                           "yaw": 100,
                            type: 'scene',
-                           text: 'Kamar Belakang',
-                           sceneId: 'd9'
+                           text: 'Kamar Utama',
+                           sceneId: 'd5'
                        },
                        {
-                           "pitch": -40,
-                           "yaw": 68,
+                           "pitch": -10,
+                           "yaw": -110,
                            type: 'scene',
-                           text: 'Kolidor belakang',
-                           sceneId: 'd10'
+                           text: 'WC',
+                           sceneId: 'd7'
                        },
-                       {
-                           "pitch": -8,
-                           "yaw": 49,
-                           type: 'info',
-                           text: 'Kamar Bilas Bilas',
-                           sceneId: ''
-                       },
-                       {
-                           "pitch": -20,
-                           "yaw": 160,
-                           type: 'info',
-                           text: 'Taman Belakang',
-                           sceneId: ''
-                       },
+                       
                       
                  
                   ]
               },
               d7: {
-                  title: 'Kamar Utama',
+                  title: 'WC',
                   pitch: 0,
                   yaw: 0,
                   hfov: 100,
                   type: 'equirectangular',
-                  panorama: 'https://i.ibb.co/X2gXXpw/7.jpg',
+                  panorama: 'https://i.ibb.co.com/fpKrTfX/7.png',
                   "autoLoad": true,
                    autoRotate: -3,
                    "compass": true,
@@ -362,22 +359,22 @@
 
                        
                        {
-                           "pitch": -5,
-                           "yaw": -97,
+                           "pitch": -30,
+                           "yaw": -170,
                            type: 'scene',
-                           text: 'Ruang Keluarga',
-                           sceneId: 'd3'
+                           text: 'Walk-in',
+                           sceneId: 'd6'
                        },
                  
                   ]
               },
               d8: {
-                  title: 'WC',
+                  title: 'Kamar Tamu',
                   pitch: 0,
                   yaw: 0,
                   hfov: 100,
                   type: 'equirectangular',
-                  panorama: 'https://i.ibb.co/CHNpVv4/8.jpg',
+                  panorama: 'https://i.ibb.co.com/yRbKkLd/8.png',
                   "autoLoad": true,
                    autoRotate: -3,
                    "compass": true,
@@ -385,24 +382,32 @@
                   hotSpots: [
 
                        {
-                           "pitch": -13,
-                           "yaw": 88
+                           "pitch": -8,
+                           "yaw": -35
                            ,
                            type: 'scene',
-                           text: 'Ruang Tamu',
-                           sceneId: 'd2'
+                           text: 'Ruang Keluarga',
+                           sceneId: 'd4'
+                       },
+                       {
+                           "pitch": -8,
+                           "yaw": 75
+                           ,
+                           type: 'info',
+                           text: 'WC',
+                           sceneId: ''
                        },
                       
                  
                   ]
               },
               d9: {
-                  title: 'Kamar Belakang',
+                  title: 'Studio',
                   pitch: 0,
                   yaw: 0,
                   hfov: 100,
                   type: 'equirectangular',
-                  panorama: 'https://i.ibb.co/qkM065S/9.jpg',
+                  panorama: 'https://i.ibb.co.com/MhvkMY4/9.png',
                   "autoLoad": true,
                    autoRotate: -3,
                    "compass": true,
@@ -411,77 +416,55 @@
 
                       
                        {
-                           "pitch": -8,
-                           "yaw": -70
+                           "pitch": -5,
+                           "yaw": 14
                            ,
                            type: 'scene',
-                           text: 'Kolidor Belakang',
-                           sceneId: 'd10'
+                           text: 'Ruang Keluarga',
+                           sceneId: 'd4'
                        },
                  
                   ]
               },
               d10: {
-                  title: 'Kolidor Belakang',
+                  title: 'Depan',
                   pitch: 0,
                   yaw: 0,
                   hfov: 100,
                   type: 'equirectangular',
-                  panorama: 'https://i.ibb.co/5jzskJ9/10.jpg',
+                  panorama: 'https://i.ibb.co.com/mTvxj1r/10.png',
                   "autoLoad": true,
                    autoRotate: -3,
                    "compass": true,
                    "northOffset": -150.5,
                   hotSpots: [
 
+                       
                        {
-                           "pitch": -35,
-                           "yaw": -40
+                           "pitch": -3,
+                           "yaw": 10
                            ,
                            type: 'scene',
-                           text: 'Area Dapur',
-                           sceneId: 'd5'
+                           text: 'Ruang Tamu',
+                           sceneId: 'd1'
                        },
                        {
-                           "pitch": -30,
-                           "yaw": 3
+                           "pitch": -20,
+                           "yaw": 70
                            ,
                            type: 'info',
-                           text: 'Area Santai',
+                           text: 'Taman',
                            sceneId: ''
                        },
                        {
-                           "pitch": -15,
-                           "yaw": 43
+                           "pitch": -3,
+                           "yaw": -25
                            ,
                            type: 'info',
-                           text: 'Taman Belakang',
+                           text: 'Pintu Area ART',
                            sceneId: ''
                        },
-                       {
-                           "pitch": -10,
-                           "yaw": -96
-                           ,
-                           type: 'scene',
-                           text: 'Kamar Belakang',
-                           sceneId: 'd9'
-                       },
-                       {
-                           "pitch": -10,
-                           "yaw": -160
-                           ,
-                           type: 'info',
-                           text: 'Kamar Bilas',
-                           sceneId: ''
-                       },
-                       {
-                           "pitch": -37,
-                           "yaw": 110
-                           ,
-                           type: 'scene',
-                           text: 'Area Cuci Jemur',
-                           sceneId: 'd6'
-                       },
+                       
                       
                  
                   ]
